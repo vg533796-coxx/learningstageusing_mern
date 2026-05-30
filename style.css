@@ -1,0 +1,48 @@
+*{
+    background-color:rgb(245, 127, 37);
+}
+.head{
+    color:darkblue;
+
+}
+#bglime{
+    background-color: lime;
+    font-size: 40px;
+}
+p{
+    color:white;
+}
+#para{
+    color:green;
+    font-size: 30px;
+}
+ul{
+    color: white;
+}
+ul li:nth-of-type(1) a {
+            background-color: yellow;
+            color: green;
+        }
+ul li:nth-of-type(2) a {
+            background-color: blue;
+            color: grey;
+        }
+ol li:nth-of-type(2)  {
+            color:blue;
+        }
+ol li:nth-of-type(3) {
+            color: red;
+        }
+h3{
+    color: black;
+    font-size:30px;
+}
+p span{
+    color: black;
+    font-size: 38px;
+}
+h1 span{
+    color:red ;
+    background-color:lime;
+    font-size: 38px;
+}
