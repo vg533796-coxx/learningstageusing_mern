@@ -10,9 +10,8 @@ body{
     background-color: #ffffff;
 }  
 #div1{
-    display: inline-block;
+    display:inline-block;
             width: 50vw; 
-            height: 80vh;
             margin: 10vh 25vw 10vh 25vw; 
             border: 1px solid #333333;
             vertical-align: top; 
@@ -20,12 +19,12 @@ body{
 }
 img{
     width: 100%;
-    height:70vh;
+    height: auto;
     display: block;
 }
 button{
+    display:block;
     width: 100%;
-    height: 10vh;
     font-size: 30px;
     text-align: center;
     color: white;
