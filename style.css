@@ -1,35 +1,32 @@
-body {
+*, *::before, *::after {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-}
+        }
 
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+}  
 #div1{
     display: inline-block;
-    text-align: center;
-    border: 2px solid black;
-    margin: 10% 25% 10% 25%;
-    width:600px;
-    height: 400px;
-}  
-#div2{
-    width: 100%;
-    height:80%;
+            width: 50vw; 
+            height: 80vh;
+            margin: 10vh 25vw 10vh 25vw; 
+            border: 1px solid #333333;
+            vertical-align: top; 
+            overflow: hidden;
 }
 img{
     width: 100%;
-    height: 100%;
-}
-#div3{
-    width:100%;
-    height:20%;
+    height:70vh;
+    display: block;
 }
 button{
     width: 100%;
-    height: 100%;
-    font-size: 40px;
+    height: 10vh;
+    font-size: 30px;
     text-align: center;
     color: white;
     background-image: linear-gradient(to right, yellow, green);
