@@ -1,21 +1,18 @@
-*, *::before, *::after {
+* {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
 
 body{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: #ffffff;
 }  
 #div1{
-    display:inline-block;
             width: 50vw; 
             margin: 10vh 25vw 10vh 25vw; 
             border: 1px solid #333333;
-            vertical-align: top; 
-            overflow: hidden;
 }
 img{
     width: 100%;
@@ -23,10 +20,14 @@ img{
     display: block;
 }
 button{
-    display:block;
+    display: block;
     width: 100%;
-    font-size: 30px;
+    font-size: 25px;
+    padding: 2vh 0;
     text-align: center;
     color: white;
     background-image: linear-gradient(to right, yellow, green);
+    button:hover{
+        opacity: 0.8;
+    }
 }

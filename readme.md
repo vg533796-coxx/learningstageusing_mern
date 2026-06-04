@@ -1,21 +1,15 @@
-Step 1:
- Clone or Copy the Repository Files
-Create a local directory on your machine and place the production codebase inside an index.html file. Alternatively, if managing via Git, pull the repository downwards using:
+1. created the index.html and style.css file.
 
-Step 2:
- Create the Main Source File
-If setting up manually, create a new file named index.html in your directory root and populate it with the target structure:
+2. in index.html 
+   -> firstly, i have linked the css file in link tag.
+   -> now in the body tag ,I have created a div block.
+   -> inside the div block ,I have inserted an image and the button .
 
-Step 3: 
-Run the Code Locally
-Option A: Direct Browser Execution (Fastest)
-1.Open your native File Explorer (Windows) or Finder (macOS).
-2.Navigate directly to your project folder containing index.html.
-3.Double-click the index.html file, or right-click and select Open With -> Google Chrome (or preferred browser).
-
-Option B: Live Server Extension (Recommended for Development)
-1.Launch Visual Studio Code, Windsurf, or your preferred editor.
-2.Open the workspace folder containing your files.
-3.Install the Live Server extension (by Ritwick Dey) if you haven't already.
-4.Click the Go Live icon positioned at the bottom right corner of the status bar, or right-click within index.html and click Open with Live Server.
-5.The page will instantly mount and serve on http://127.0.0.1:5500/index.html with active hot-reloading configurations.
+3. in style.css file
+   ->In css file i have done the needed styling for the image and button to look good and nice.
+   ->in universal block we have added the box-sizing:border-box,margin and padding to 0.
+   ->in body tag i have added the height and width to the 100%, so the page does not go the scroll.
+   ->In div1 i have added the width of the box and margin of 10% from top and bottom,25% from right and left,we have laso given the border of the div.
+   ->in img  we have added the width of the image to 100% of the div and height will be taken auto to maintain the proportion of the image.
+   ->in button we have addded the gradient colors to loook nice,with some padding and font size ,the text color is changed to white.
+ 
